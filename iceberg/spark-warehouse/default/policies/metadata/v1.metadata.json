@@ -1,0 +1,66 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "30b5fa02-5dc1-488b-bec0-b88c85b35c8d",
+  "location" : "file:///home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1777253266222,
+  "last-column-id" : 6,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "policy_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "customer_name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "policy_type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "premium_value",
+      "required" : false,
+      "type" : "decimal(10, 2)"
+    }, {
+      "id" : 5,
+      "name" : "status",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "created_at",
+      "required" : false,
+      "type" : "timestamptz"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "william",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}

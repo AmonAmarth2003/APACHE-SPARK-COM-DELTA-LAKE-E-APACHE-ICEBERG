@@ -2,7 +2,6 @@
 name = "spark-iceberg"
 version = "0.1.0"
 description = "Projeto Apache Spark com Apache Iceberg"
-readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "pyspark (==3.5.3)",
