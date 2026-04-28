@@ -1,0 +1,10 @@
+site_name: Apache Spark com Delta Lake e Apache Iceberg
+
+nav:
+  - Contextualização: index.md
+  - Apache Spark (PySpark): spark.md
+  - Apache Iceberg: iceberg.md
+  - Delta Lake: delta.md
+
+theme:
+  name: readthedocs
