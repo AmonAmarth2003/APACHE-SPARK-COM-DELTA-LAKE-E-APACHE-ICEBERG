@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "30b5fa02-5dc1-488b-bec0-b88c85b35c8d",
+  "table-uuid" : "a5872ebb-9525-4dbc-9e19-a6cef102f7b6",
   "location" : "file:///home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies",
   "last-sequence-number" : 3,
-  "last-updated-ms" : 1777253284024,
+  "last-updated-ms" : 1777407711041,
   "last-column-id" : 6,
   "current-schema-id" : 0,
   "schemas" : [ {
@@ -56,20 +56,20 @@
     "owner" : "william",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : 3090757015716789293,
+  "current-snapshot-id" : 8499216964677020158,
   "refs" : {
     "main" : {
-      "snapshot-id" : 3090757015716789293,
+      "snapshot-id" : 8499216964677020158,
       "type" : "branch"
     }
   },
   "snapshots" : [ {
     "sequence-number" : 1,
-    "snapshot-id" : 5412606961915806514,
-    "timestamp-ms" : 1777253273194,
+    "snapshot-id" : 6917508716084848852,
+    "timestamp-ms" : 1777407704380,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1777253250378",
+      "spark.app.id" : "local-1777407676493",
       "added-data-files" : "2",
       "added-records" : "2",
       "added-files-size" : "3561",
@@ -81,20 +81,20 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0",
       "engine-version" : "3.5.3",
-      "app-id" : "local-1777253250378",
+      "app-id" : "local-1777407676493",
       "engine-name" : "spark",
       "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
     },
-    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-5412606961915806514-1-b1404528-e1e2-4d5a-a645-67a5dae44d22.avro",
+    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-6917508716084848852-1-ea90e746-214e-4cc3-b339-e476e990d1cf.avro",
     "schema-id" : 0
   }, {
     "sequence-number" : 2,
-    "snapshot-id" : 9105424325208956995,
-    "parent-snapshot-id" : 5412606961915806514,
-    "timestamp-ms" : 1777253278362,
+    "snapshot-id" : 779248759508068432,
+    "parent-snapshot-id" : 6917508716084848852,
+    "timestamp-ms" : 1777407708993,
     "summary" : {
       "operation" : "overwrite",
-      "spark.app.id" : "local-1777253250378",
+      "spark.app.id" : "local-1777407676493",
       "added-data-files" : "1",
       "deleted-data-files" : "1",
       "added-records" : "1",
@@ -109,20 +109,20 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0",
       "engine-version" : "3.5.3",
-      "app-id" : "local-1777253250378",
+      "app-id" : "local-1777407676493",
       "engine-name" : "spark",
       "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
     },
-    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-9105424325208956995-1-89431ffa-dfa2-44a6-a65a-36207dc239f5.avro",
+    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-779248759508068432-1-5429d607-3713-48e8-9410-8cabb6d73a99.avro",
     "schema-id" : 0
   }, {
     "sequence-number" : 3,
-    "snapshot-id" : 3090757015716789293,
-    "parent-snapshot-id" : 9105424325208956995,
-    "timestamp-ms" : 1777253284024,
+    "snapshot-id" : 8499216964677020158,
+    "parent-snapshot-id" : 779248759508068432,
+    "timestamp-ms" : 1777407711041,
     "summary" : {
       "operation" : "delete",
-      "spark.app.id" : "local-1777253250378",
+      "spark.app.id" : "local-1777407676493",
       "deleted-data-files" : "1",
       "deleted-records" : "1",
       "removed-files-size" : "1788",
@@ -134,33 +134,33 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0",
       "engine-version" : "3.5.3",
-      "app-id" : "local-1777253250378",
+      "app-id" : "local-1777407676493",
       "engine-name" : "spark",
       "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
     },
-    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-3090757015716789293-1-961a2d21-9256-4d66-a8da-7aa17c0c064e.avro",
+    "manifest-list" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/snap-8499216964677020158-1-1c16c4df-fda2-4b49-9821-a5ad10022038.avro",
     "schema-id" : 0
   } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
   "snapshot-log" : [ {
-    "timestamp-ms" : 1777253273194,
-    "snapshot-id" : 5412606961915806514
+    "timestamp-ms" : 1777407704380,
+    "snapshot-id" : 6917508716084848852
   }, {
-    "timestamp-ms" : 1777253278362,
-    "snapshot-id" : 9105424325208956995
+    "timestamp-ms" : 1777407708993,
+    "snapshot-id" : 779248759508068432
   }, {
-    "timestamp-ms" : 1777253284024,
-    "snapshot-id" : 3090757015716789293
+    "timestamp-ms" : 1777407711041,
+    "snapshot-id" : 8499216964677020158
   } ],
   "metadata-log" : [ {
-    "timestamp-ms" : 1777253266222,
+    "timestamp-ms" : 1777407699712,
     "metadata-file" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/v1.metadata.json"
   }, {
-    "timestamp-ms" : 1777253273194,
+    "timestamp-ms" : 1777407704380,
     "metadata-file" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/v2.metadata.json"
   }, {
-    "timestamp-ms" : 1777253278362,
+    "timestamp-ms" : 1777407708993,
     "metadata-file" : "file:/home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies/metadata/v3.metadata.json"
   } ]
 }

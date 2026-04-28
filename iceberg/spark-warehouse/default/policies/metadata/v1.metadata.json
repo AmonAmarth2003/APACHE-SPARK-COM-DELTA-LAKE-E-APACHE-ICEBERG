@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "30b5fa02-5dc1-488b-bec0-b88c85b35c8d",
+  "table-uuid" : "a5872ebb-9525-4dbc-9e19-a6cef102f7b6",
   "location" : "file:///home/william/APACHE-SPARK-COM-DELTA-LAKE-E-APACHE-ICEBERG/iceberg/spark-warehouse/default/policies",
   "last-sequence-number" : 0,
-  "last-updated-ms" : 1777253266222,
+  "last-updated-ms" : 1777407699712,
   "last-column-id" : 6,
   "current-schema-id" : 0,
   "schemas" : [ {
